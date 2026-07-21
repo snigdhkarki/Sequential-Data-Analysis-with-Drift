@@ -112,7 +112,6 @@ def main():
 
     fig.update_layout(
         shapes=shapes,
-        title="temp & pressure (scaled 0-1), predicted alarm probability, and alarms (red lines)",
         xaxis=dict(
             title="row index",
             rangeslider=dict(visible=True),   # <- lets you scroll/pan across all rows
